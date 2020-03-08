@@ -1,0 +1,58 @@
+[2018-11-25 14:10:51.025] [exthost1] [info] extension host started
+[2018-11-25 14:10:51.188] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-11-25 14:10:51.189] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\debug-auto-launch\out\extension
+[2018-11-25 14:10:51.225] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-11-25 14:10:51.226] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\emmet\dist\extension
+[2018-11-25 14:10:51.294] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-11-25 14:10:51.294] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2018-11-25 14:10:51.321] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-11-25 14:10:51.321] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2018-11-25 14:10:51.338] [exthost1] [info] eager extensions activated
+[2018-11-25 14:10:52.299] [exthost1] [info] extension host started
+[2018-11-25 14:10:52.325] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-11-25 14:10:52.326] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\debug-auto-launch\out\extension
+[2018-11-25 14:10:52.355] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-11-25 14:10:52.355] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\emmet\dist\extension
+[2018-11-25 14:10:52.621] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-11-25 14:10:52.621] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2018-11-25 14:10:52.670] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-11-25 14:10:52.670] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2018-11-25 14:10:52.686] [exthost1] [info] eager extensions activated
+[2018-11-25 14:10:52.689] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-11-25 14:10:52.689] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\configuration-editing\out\extension
+[2018-11-25 14:10:52.706] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-11-25 14:10:52.706] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\json-language-features\client\dist\jsonMain
+[2018-11-25 14:10:52.867] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-11-25 14:10:52.867] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\typescript-language-features\dist\extension
+[2018-11-25 14:10:52.986] [exthost1] [info] ExtensionService#_doActivateExtension vscode.grunt {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2018-11-25 14:10:52.986] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\grunt\out\main
+[2018-11-25 14:10:52.992] [exthost1] [info] ExtensionService#_doActivateExtension vscode.gulp {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2018-11-25 14:10:52.992] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\gulp\out\main
+[2018-11-25 14:10:52.998] [exthost1] [info] ExtensionService#_doActivateExtension vscode.jake {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2018-11-25 14:10:52.998] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\jake\out\main
+[2018-11-25 14:10:53.005] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2018-11-25 14:10:53.005] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\npm\out\main
+[2018-11-25 15:19:28.839] [exthost1] [info] extension host started
+[2018-11-25 15:19:28.862] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-11-25 15:19:28.862] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\debug-auto-launch\out\extension
+[2018-11-25 15:19:28.870] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-11-25 15:19:28.870] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\emmet\dist\extension
+[2018-11-25 15:19:28.907] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-11-25 15:19:28.907] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2018-11-25 15:19:28.925] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-11-25 15:19:28.925] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2018-11-25 15:19:28.934] [exthost1] [info] eager extensions activated
+[2018-11-25 15:19:28.934] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-11-25 15:19:28.934] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\configuration-editing\out\extension
+[2018-11-25 15:19:28.946] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-11-25 15:19:28.946] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\json-language-features\client\dist\jsonMain
+[2018-11-25 15:19:29.073] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-11-25 15:19:29.073] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\typescript-language-features\dist\extension
+[2018-11-25 15:19:29.182] [exthost1] [info] ExtensionService#_doActivateExtension vscode.grunt {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2018-11-25 15:19:29.182] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\grunt\out\main
+[2018-11-25 15:19:29.189] [exthost1] [info] ExtensionService#_doActivateExtension vscode.gulp {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2018-11-25 15:19:29.189] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\gulp\out\main
+[2018-11-25 15:19:29.195] [exthost1] [info] ExtensionService#_doActivateExtension vscode.jake {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2018-11-25 15:19:29.195] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\jake\out\main
+[2018-11-25 15:19:29.201] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2018-11-25 15:19:29.201] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Lenovo\.codemix\engine\resources\app\extensions\npm\out\main

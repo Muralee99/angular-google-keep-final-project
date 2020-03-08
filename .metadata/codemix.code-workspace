@@ -1,0 +1,10 @@
+{
+  "folders": [
+    
+  ],
+  "settings": {
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true
+  }
+}

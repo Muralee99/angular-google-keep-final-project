@@ -1,0 +1,72 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular5 blog",
+      "text": "Shall do at 6 pm",
+      "state": "started"
+    },
+    {
+      "id": 2,
+      "title": "Call Ravi",
+      "text": "Track the new submissions",
+      "state": "started"
+    },
+    {
+      "title": "Capitalism",
+      "text": "Mark Twain11",
+      "id": 3,
+      "state": "completed"
+    },
+    {
+      "title": "Angular",
+      "text": "Teach Angular",
+      "state": "not-started",
+      "id": 4
+    },
+    {
+      "title": "adfdj",
+      "text": "fjdkfj",
+      "state": "not-started",
+      "category": "Personal",
+      "id": 5
+    },
+    {
+      "title": "hghdfd",
+      "text": "adfd",
+      "state": "not-started",
+      "category": "",
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "creattionDate": "2018-11-22T14:00:52.679Z",
+      "categoryName": "4",
+      "categoryDesc": "11",
+      "createdBy": "111",
+      "id": 1
+    },
+    {
+      "creattionDate": "2018-11-23T12:18:43.690Z",
+      "categoryName": "adfadf",
+      "categoryDesc": "adfa",
+      "createdBy": "adfaf",
+      "id": 2
+    },
+    {
+      "creattionDate": "2018-11-25T11:25:00.746Z",
+      "categoryName": "dfad",
+      "categoryDesc": "adfa",
+      "createdBy": "dfaf",
+      "id": 3
+    },
+    {
+      "creattionDate": "2018-11-25T14:12:48.442Z",
+      "categoryName": "fdfd",
+      "categoryDesc": "dfad",
+      "createdBy": "adfa",
+      "id": 4
+    }
+  ]
+}

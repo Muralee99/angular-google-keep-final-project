@@ -1,0 +1,22 @@
+<div class="card-style-1">
+  <mat-card *ngIf="note != null" class='keep-note-card' (click)='openEditView()'>
+    <mat-card-title>{{note.noteTitle}}</mat-card-title>
+    <mat-card-content>{{note.noteContent}}</mat-card-content>
+    <mat-card-content>{{note.noteStatus}}</mat-card-content>
+    <!-- <mat-card-content>{{note.categories[0].categoryCreatedBy}}</mat-card-content>-->
+
+    <mat-chip-list *ngIf="!note.isCategoriesExist">
+      <mat-chip *ngFor="let category of note.categories" [selectable]="selectable" [removable]="removable" (removed)="removeCategories(note, category)">
+        {{ category.categoryName }}
+        <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+      </mat-chip>
+    </mat-chip-list>
+
+    <mat-chip-list *ngIf="!note.isRemindersExist">
+      <mat-chip *ngFor="let reminder of note.reminders" [selectable]="selectable" [removable]="removable" (removed)="removeReminders(note, reminder)">
+        {{ reminder.reminderDateString }}
+        <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+      </mat-chip>
+    </mat-chip-list>
+  </mat-card>
+</div>

@@ -1,0 +1,87 @@
+<!-- Label to display any error messages -->
+<label class="error-message">{{ errMessage }}</label>
+
+<div class="keep-c-note-taker-form">
+  <label style="margin:-30px 0px 30px 0px;">Edit/Delete Notes</label>
+  <mat-form-field>
+    <input [(ngModel)]="note.noteTitle" name="editTitle" matInput placeholder="Title" type="text">
+  </mat-form-field>
+  <mat-form-field>
+    <textarea [(ngModel)]="note.noteContent" name="editText" matInput placeholder="Text"></textarea>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-select name="editStatus" placeholder="Select state" [(ngModel)]="note.noteStatus">
+      <mat-option *ngFor="let state of states" [value]="state">
+        {{ state }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <div>
+      <mat-chip-list>
+        <mat-chip *ngFor="let category of categoryListSelected" [selectable]="selectable" [removable]="removable"
+          (removed)="removeCategories(note, category)">
+          {{ category.categoryName }}
+          <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+        </mat-chip>
+      </mat-chip-list>
+
+      <mat-chip-list>
+        <mat-chip *ngFor="let reminder of remindersR" [selectable]="selectable" [removable]="removable" 
+        (removed)="removeReminders(note, reminder)">
+          {{ reminder.reminderDateString }}
+          <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+        </mat-chip>
+      </mat-chip-list>
+    </div>
+    <mat-divider></mat-divider>
+      <div class='keep-c-done-btn-wrapper'>
+          <mat-form-field>
+              <mat-select placeholder="select categories" [formControl]="catFormControl" (selectionChange)="onCategorySelect(cat_taker)"
+                multiple name="cat_taker" [(ngModel)]="cat_taker">
+                <mat-icon>more_vert</mat-icon>
+                <mat-option *ngFor="let category of categories" [value]="category">{{category.categoryName}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <div class='keep-component-button'>
+                <button mat-icon-button [matMenuTriggerFor]="menu">
+                  <mat-icon>add_alert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <mat-label mat-menu-item>Reminder: </mat-label>
+                  <button mat-button (click)="onTodayClick()">Later
+                    Today&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:00 PM</button><br />
+                  <button mat-button (click)="onTomorrowClick()">Tomorrow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:00
+                    PM</button><br />
+                  <button mat-button (click)="onNextWeekClick()">Nextweek&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mon, 8:00 PM</button>
+                  <button mat-menu-item>
+                    <mat-form-field>
+                      <input matInput [matDatepicker]="picker" placeholder="Pick date&time" [(ngModel)]="inputStartDate">
+                      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                      <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                  </button>
+        
+                  <button mat-menu-item>
+                    <mat-form-field>
+                      <input value="00:00" [(ngModel)]="timepick" matInput (mouseover)="open($event)" placeholder="pick time">
+                      <mat-icon>access_time</mat-icon>
+                    </mat-form-field>
+                  </button>
+        
+                  <button mat-button (click)="onReminderSelect()">
+                    SAVE
+                  </button>
+                </mat-menu>
+              </div>
+            </div>   
+            <div>
+          <button mat-button (click)="onSave()"><mat-icon>save</mat-icon></button>
+          <button mat-button (click)="onDelete()"><mat-icon>delete</mat-icon></button>
+        </div>
+
+
+</div>

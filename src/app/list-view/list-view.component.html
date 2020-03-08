@@ -1,0 +1,78 @@
+<div class="input-fixed">    
+	<input [(ngModel)]="searchText" placeholder="search for notes" class="example inputStyle" style="width: 250px;height: 50px;">
+    <i class="fa fa-search" style="width: 50px;height: 50px;"></i>
+</div>
+
+<div class="element-fixed">
+	<div>
+		<button mat-button (click)="getNotesList()">
+			<mat-icon>note</mat-icon><label class="label-alignment">Notes</label>
+		</button>
+	</div>
+	<div>
+		<button mat-button (click)="getReminderList()">
+			<mat-icon>notifications_none</mat-icon> <label class="label-alignment">Reminders</label>
+		</button>
+	</div>
+
+	<mat-divider></mat-divider>
+
+	<h2>Labels</h2>
+
+	<div *ngIf="categoryNames.length > 0">
+		<div *ngFor="let category of categoryNames">
+			<div *ngIf="category.categoryName != null && category.categoryName != ''">
+				<button mat-button (click)="getCategoryNotes(category)">
+					<mat-icon>label</mat-icon>
+					{{category.categoryName}}
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<button mat-button (click)="addCategory(category)">
+			<mat-icon>edit</mat-icon>
+			Edit Labels
+		</button>
+	</div>
+</div>
+
+<div class="keep-component-align">
+	<div>
+		<label>Not-Started Notes</label>
+		<div>
+			<mat-grid-list cols="3" rowHeight="3:2">
+				<mat-grid-tile *ngFor="let note of notStartedNotes | filter : searchText">
+					<app-note [note]='note'>{{ note }}</app-note>
+				</mat-grid-tile>
+			</mat-grid-list>
+		</div>
+	</div>
+</div>
+
+<div class="keep-component-align">
+	<div>
+		<label>Started Notes</label>
+		<div>
+			<mat-grid-list cols="3" rowHeight="3:2">
+				<mat-grid-tile *ngFor="let note of startedNotes | filter : searchText">
+					<app-note [note]='note'>{{ note }}</app-note>
+				</mat-grid-tile>
+			</mat-grid-list>
+		</div>
+	</div>
+</div>
+
+<div class="keep-component-align">
+	<div>
+		<label>Completed Notes</label>
+		<div>
+			<mat-grid-list cols="3" rowHeight="3:2">
+				<mat-grid-tile *ngFor="let note of completedNotes | filter : searchText">
+					<app-note [note]='note'>{{ note }}</app-note>
+				</mat-grid-tile>
+			</mat-grid-list>
+		</div>
+	</div>
+</div>

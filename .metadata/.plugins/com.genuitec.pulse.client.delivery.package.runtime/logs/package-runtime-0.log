@@ -1,0 +1,22 @@
+Nov 25, 2018 2:10:24 PM com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
+INFO: Package starting up at Sun Nov 25 14:10:24 IST 2018
+Nov 25, 2018 2:10:25 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:57712]
+Nov 25, 2018 2:10:25 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Nov 25, 2018 2:10:25 PM org.glassfish.tyrus.server.Server start
+INFO: WebSocket Registered apps: URLs all start with ws://localhost:57712
+Nov 25, 2018 2:10:25 PM org.glassfish.tyrus.server.Server start
+INFO: WebSocket server started.
+Nov 25, 2018 5:56:39 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:57712]
+Nov 25, 2018 5:56:39 PM org.glassfish.tyrus.server.Server stop
+INFO: Websocket Server stopped.
+Nov 25, 2018 5:56:39 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:57712]
+Nov 25, 2018 5:56:39 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-1] Started.
+Nov 25, 2018 5:56:39 PM org.glassfish.tyrus.server.Server start
+INFO: WebSocket Registered apps: URLs all start with ws://localhost:57712
+Nov 25, 2018 5:56:39 PM org.glassfish.tyrus.server.Server start
+INFO: WebSocket server started.

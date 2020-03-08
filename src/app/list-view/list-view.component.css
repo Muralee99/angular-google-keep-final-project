@@ -1,0 +1,136 @@
+.keep-note-container{
+  display : flex;
+  margin : 20px;
+}
+
+.keep-note-container{
+  margin : 10px;
+}
+
+.keep-component-align{
+margin : 0px 0px 0px 300px;  
+display: block;
+
+}
+
+.example-container {
+width: 1800px;
+height: 1000px;
+margin: 10px;
+background-color: white;
+}
+
+.mat-button {
+position: relative;
+cursor: pointer;
+padding-left: 0;
+margin: 0;
+background: transparent;
+color: inherit;
+font-size: 16px;  
+outline: none;
+width: 41px;
+height: 41px;
+line-height: 41px;   /* newly added */
+padding: 0 5px 0 20px;
+margin: 0 2px;
+text-align: left;
+display: inline-block;
+box-sizing: border-box;
+width: 200px; 
+
+border-radius: 115px;
+}
+
+.mat-button:not([disabled]):hover {
+background-color: rgba(245, 244, 244);
+color: rgba(44, 65, 164, 0.96);
+transition: 0.3s;
+}
+
+.mat-button:not([disabled]):active {
+background-color: rgb(255,250,205);  
+
+}
+
+.mat-button:not([disabled]):focus {
+background-color: rgb(255,250,205);  
+
+}
+
+div.element-fixed {
+position: fixed;
+left: 0;
+bottom: 0;
+top: 70px;
+}
+
+.label-alignment{
+position: relative;
+cursor: pointer;
+padding: 0;
+margin: 0;
+background: transparent;
+color: inherit;
+font-size: 16px;
+border: none;
+outline: none;
+width: 41px;
+height: 41px;
+line-height: 41px;   /* newly added */
+padding: 0 5px;
+margin: 0 2px;
+text-align: center;
+display: inline-block;
+box-sizing: border-box; 
+}
+
+.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.inputStyle{
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;  
+}
+
+div.input-fixed {
+  position: fixed;
+  right:0;
+  left: 1000;
+  bottom: 0;
+  top: 90px;
+}
+
+

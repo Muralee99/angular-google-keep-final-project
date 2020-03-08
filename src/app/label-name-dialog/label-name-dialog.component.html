@@ -1,0 +1,67 @@
+<div class="keep-c-note-taker-form">
+  <h1 mat-dialog-title>Edit Labels</h1>
+  <div>
+    <button mat-button style="width:1%" (click)="clearCategroyLabel()">
+      <mat-icon>close</mat-icon>
+    </button>
+    <mat-form-field>
+      <input [(ngModel)]="newCategoryName" matInput placeholder="create new label" type="text">
+    </mat-form-field>
+    <button mat-button style="width:1%" (click)="createNewCategory(newCategoryName)">
+      <mat-icon>done</mat-icon>
+    </button>
+  </div>
+  <div *ngIf="categoryNames.length > 0">
+    <br />
+    <div *ngFor="let category of categoryNames">
+      <mat-label>
+      </mat-label>
+      <div *ngIf="category != null && category.categoryName != null && category.categoryName != ''">
+
+        <span *ngIf="changeToDelete">
+          <button mat-button (mouseout)="changeToDelete=false;" (click)="openDialog(category)" style="width:1%">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </span>
+        <span *ngIf="!changeToDelete">
+          <button mat-button (mouseover)="changeToDelete=true;" style="width:1%">
+            <mat-icon>label</mat-icon>
+          </button>
+        </span>
+
+        <span id="category.id" *ngIf="cId!=category.id">
+          <mat-label>
+            {{category.categoryName}}
+          </mat-label>
+
+          <span *ngIf="showDone">
+            <button mat-button style="width:1%" (click)="editMode = true; cId=category.id">
+              <mat-icon>edit</mat-icon>
+            </button>
+          </span>
+        </span>
+        <span id="category.id" *ngIf="editMode && cId===category.id">
+          <mat-form-field>
+            <input [(ngModel)]="category.categoryName" matInput placeholder="modify label name" type="text">
+          </mat-form-field>
+          <span *ngIf="showDone">
+            <button mat-button style="width:1%" (click)="enableEditCategory(category); editMode = true; showDone=false; cId=category.id">
+              <mat-icon>done</mat-icon>
+            </button>
+          </span>
+        </span>
+
+        <span *ngIf="!showDone">
+          <button mat-button style="width:1%" (click)="enableEditCategory(category); editMode = true; showDone=true; cId=category.id">
+            <mat-icon>edit</mat-icon>
+          </button>
+        </span>
+      </div>
+    </div>
+
+  </div>
+  <mat-divider></mat-divider>
+  <button mat-button style="width:40%; align-content: right" (click)="editSaveCategory(saveLabelAfterEdit)">
+    <mat-icon>DONE</mat-icon>
+  </button>
+</div>

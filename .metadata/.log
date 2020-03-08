@@ -1,0 +1,583 @@
+!SESSION 2018-11-25 14:09:09.549 -----------------------------------------------
+eclipse.buildId=18.0.0.CI-AI
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.genuitec.eclipse.code.angularide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.genuitec.eclipse.code.angularide.product
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2018-11-25 14:10:19.268
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY org.eclipse.ui 2 0 2018-11-25 14:10:20.388
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-11-25 14:10:20.388
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-11-25 14:10:21.225
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-11-25 14:10:21.249
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-25 14:10:24.567
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2018-11-25 14:10:25.097
+!MESSAGE CodeMix Engine needs to be installed; new installation
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2018-11-25 14:10:41.339
+!MESSAGE Initializing CodeMix Engine's settings file at F:\FSD_Part_2\angular-keep-level-3-assignment\.metadata\codemix.code-workspace
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2018-11-25 14:10:42.544
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 14:11:30.026
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 14:11:30.027
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 14:11:30.027
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 14:11:30.027
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2018-11-25 14:11:30.053
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 14:11:30.053
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 14:11:30.053
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 14:11:30.053
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 14:11:30.053
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 14:11:30.053
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2018-11-25 14:11:30.053
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2018-11-25 14:11:30.053
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2018-11-25 15:00:43.398
+!MESSAGE Metadata for this software package has been updated and is being received from the update server
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2018-11-25 15:00:43.398
+!MESSAGE Server has validated the local update metadata; no new metadata is necessary at this time
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:10:48.700
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:10:48.700
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:10:48.700
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:10:48.700
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2018-11-25 15:10:48.757
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:10:48.758
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:10:48.758
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:10:48.758
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:10:48.758
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:10:48.758
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2018-11-25 15:10:48.758
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2018-11-25 15:10:48.758
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:11:01.552
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:11:01.552
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:11:01.552
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:11:01.552
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2018-11-25 15:11:01.565
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:11:01.565
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:11:01.565
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:11:01.565
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:11:01.565
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:11:01.566
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2018-11-25 15:11:01.566
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2018-11-25 15:11:01.566
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:15:58.160
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:15:58.160
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:15:58.160
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:15:58.160
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2018-11-25 15:15:58.172
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:15:58.173
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:15:58.173
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:15:58.173
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:15:58.173
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:15:58.173
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2018-11-25 15:15:58.173
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2018-11-25 15:15:58.173
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:18:00.881
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:18:00.881
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:18:00.881
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:18:00.881
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2018-11-25 15:18:00.894
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:18:00.894
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:18:00.894
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:18:00.894
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:18:00.894
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:18:00.894
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2018-11-25 15:18:00.894
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2018-11-25 15:18:00.894
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:23:06.475
+!MESSAGE Error found while executing commands to create poject TestProject.
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:24:31.432
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:24:31.432
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:24:31.432
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:24:31.432
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2018-11-25 15:24:31.444
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-25 15:24:31.444
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-11-25 15:24:31.444
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:24:31.444
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2018-11-25 15:24:31.444
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-11-25 15:24:31.444
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2018-11-25 15:24:31.444
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2018-11-25 15:24:31.444
+!MESSAGE F:\FSD_Part_2\angular-keep-level-3-assignment overlaps the workspace location: F:\FSD_Part_2\angular-keep-level-3-assignment
+
+!ENTRY com.genuitec.eclipse.code.core 4 0 2018-11-25 17:56:40.620
+!MESSAGE <null>
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.code.engine.EmbeddedEngine.findProcesses(EmbeddedEngine.java:179)
+	at com.genuitec.eclipse.code.engine.EmbeddedEngine.findOrphanedEngines(EmbeddedEngine.java:148)
+	at com.genuitec.eclipse.code.engine.EmbeddedEngine.run(EmbeddedEngine.java:56)
+	at com.genuitec.eclipse.code.core.engine.app.EngineManager.run(EngineManager.java:251)
+	at com.genuitec.eclipse.code.core.engine.app.EngineManager.restart(EngineManager.java:211)
+	at com.genuitec.eclipse.code.core.engine.EngineService$RestartEngineJob.run(EngineService.java:1213)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2018-11-25 17:56:41.153
+!MESSAGE Unable to find any processes when looking for orphans.
+
+!ENTRY com.genuitec.eclipse.code.core 4 0 2018-11-25 17:56:43.641
+!MESSAGE Succeed to restart CodeMix Engine after 1 attempt(s).
+
+!ENTRY com.genuitec.eclipse.code.core 4 0 2018-11-25 17:56:44.635
+!MESSAGE CodeMix Engine Process has ended unexpectedly [-1073741205]: 

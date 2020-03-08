@@ -1,0 +1,14 @@
+.keep-c-toggle-view {
+	width: 100%;
+	margin-left: 90%;
+	cursor: pointer;
+}
+
+.mat-toolbar.mat-primary{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+

@@ -1,0 +1,15 @@
+<div style="text-align:center">
+        <h2 md-dialog-title>Label Delete Alert</h2>
+        <hr>
+        <mat-dialog-content>
+                We’ll delete this label and remove it from all of your Keep notes. Your notes won’t be deleted.
+          <br>
+          <br>
+          <strong>{{data}}</strong>
+        </mat-dialog-content>
+        <hr>
+        <mat-dialog-actions>
+          <button mat-raised-button (click)="onCloseConfirm()">CANCEL</button>&nbsp;
+          <button mat-raised-button (click)="onDeleteConfirm()">DELETE</button>
+        </mat-dialog-actions>
+      </div>

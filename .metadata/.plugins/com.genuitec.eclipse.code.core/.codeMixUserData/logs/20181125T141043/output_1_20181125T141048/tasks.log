@@ -1,0 +1,149 @@
+Error: The typescript task detection didn't contribute a task for the following configuration:
+{
+    "type": "typescript",
+    "tsconfig": "TestProject\\tsconfig.json",
+    "problemMatcher": [
+        "$tsc"
+    ],
+    "codemix": {
+        "lifecycle": "build",
+        "validatedExtensions": [
+            "ts"
+        ],
+        "readyChecks": [
+            "node_modules_ready"
+        ]
+    }
+}
+The task will be ignored.
+Error: The typescript task detection didn't contribute a task for the following configuration:
+{
+    "type": "typescript",
+    "tsconfig": "TestProject\\tsconfig.json",
+    "option": "watch",
+    "problemMatcher": [
+        "$tsc-watch"
+    ],
+    "codemix": {
+        "lifecycle": "watch",
+        "validatedExtensions": [
+            "ts"
+        ],
+        "readyChecks": [
+            "node_modules_ready"
+        ]
+    }
+}
+The task will be ignored.
+Error: Canceled
+Error: The typescript task detection didn't contribute a task for the following configuration:
+{
+    "type": "typescript",
+    "tsconfig": "TestProject\\tsconfig.json",
+    "problemMatcher": [
+        "$tsc"
+    ],
+    "codemix": {
+        "lifecycle": "build",
+        "validatedExtensions": [
+            "ts"
+        ],
+        "readyChecks": [
+            "node_modules_ready"
+        ]
+    }
+}
+The task will be ignored.
+Error: The typescript task detection didn't contribute a task for the following configuration:
+{
+    "type": "typescript",
+    "tsconfig": "TestProject\\tsconfig.json",
+    "option": "watch",
+    "problemMatcher": [
+        "$tsc-watch"
+    ],
+    "codemix": {
+        "lifecycle": "watch",
+        "validatedExtensions": [
+            "ts"
+        ],
+        "readyChecks": [
+            "node_modules_ready"
+        ]
+    }
+}
+The task will be ignored.
+Error: The typescript task detection didn't contribute a task for the following configuration:
+{
+    "type": "typescript",
+    "tsconfig": "TestProject\\tsconfig.json",
+    "problemMatcher": [
+        "$tsc"
+    ],
+    "codemix": {
+        "lifecycle": "build",
+        "validatedExtensions": [
+            "ts"
+        ],
+        "readyChecks": [
+            "node_modules_ready"
+        ]
+    }
+}
+The task will be ignored.
+Error: The typescript task detection didn't contribute a task for the following configuration:
+{
+    "type": "typescript",
+    "tsconfig": "TestProject\\tsconfig.json",
+    "option": "watch",
+    "problemMatcher": [
+        "$tsc-watch"
+    ],
+    "codemix": {
+        "lifecycle": "watch",
+        "validatedExtensions": [
+            "ts"
+        ],
+        "readyChecks": [
+            "node_modules_ready"
+        ]
+    }
+}
+The task will be ignored.
+Error: The typescript task detection didn't contribute a task for the following configuration:
+{
+    "type": "typescript",
+    "tsconfig": "TestProject\\tsconfig.json",
+    "problemMatcher": [
+        "$tsc"
+    ],
+    "codemix": {
+        "lifecycle": "build",
+        "validatedExtensions": [
+            "ts"
+        ],
+        "readyChecks": [
+            "node_modules_ready"
+        ]
+    }
+}
+The task will be ignored.
+Error: The typescript task detection didn't contribute a task for the following configuration:
+{
+    "type": "typescript",
+    "tsconfig": "TestProject\\tsconfig.json",
+    "option": "watch",
+    "problemMatcher": [
+        "$tsc-watch"
+    ],
+    "codemix": {
+        "lifecycle": "watch",
+        "validatedExtensions": [
+            "ts"
+        ],
+        "readyChecks": [
+            "node_modules_ready"
+        ]
+    }
+}
+The task will be ignored.

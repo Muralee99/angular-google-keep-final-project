@@ -1,0 +1,12 @@
+<div>
+	<mat-toolbar color="primary" layout="row" style="position: fixed;">Notes Keep
+			
+		<div class="keep-c-toggle-view">	
+				<div style="float: right;margin:0px 1000px 0px -200px"><mat-label>Hello! {{loggedInUser}}</mat-label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<mat-icon (click)="logout()">exit_to_app</mat-icon></div>	
+				
+			<i *ngIf="isNoteView" class='material-icons switchToListView' (click)='switchToListView()'> view_list </i>
+			<i *ngIf="!isNoteView" class='material-icons switchToNoteView' (click)='switchToNoteView()'> view_quilt </i>
+		</div>
+	</mat-toolbar>
+</div>
