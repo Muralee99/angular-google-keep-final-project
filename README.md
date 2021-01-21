@@ -104,12 +104,4 @@ npm run lint
 `npm run serve` (backend shall be running before executing e2e test cases)  
 `npm run e2e`
 
-## Submitting your solution for preliminary automated review  
-1. Open `https://hobbes-cts.stackroute.in/#/` and login into the platform  
-2. Under `Assignment repository` select `angular-keep-level-3-assignment`, and branch `master`  
-3. Under `Your solution repository` select your own repository and branch
-4. Press `Submit`  
-5. Press `click here` for the feedback  
-6. Evaluation will take around 5 mins to complete after which you need to refresh your browser and get the updated status  
-7. Watch out for your total score and detailed status on each test and eslint errors in the coloured blocks on the screen  
-8. Fix failing test cases as well as eslint errors and re-submit your solution (you may skip any eslint errors reported in the provided spec files)  
+ 
